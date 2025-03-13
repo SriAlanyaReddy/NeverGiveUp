@@ -52,11 +52,13 @@ class Solution {
         }
 
         // Count unique province roots
-        HashSet<Integer> set = new HashSet<>();
+       int c=0;
         for (int i = 0; i < n; i++) {
-            set.add(ds.findparent(i));
+            if(ds.findparent(i)==i){
+                c++;
+            }
         }
 
-        return set.size();
+        return c;
     }
 }
