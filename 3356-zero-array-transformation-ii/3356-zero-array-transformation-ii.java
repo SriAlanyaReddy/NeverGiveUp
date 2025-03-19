@@ -4,6 +4,7 @@ class Solution {
         int left = 0, right = queries.length, ans = -1;
 
         // Binary search to find the smallest k
+          if (!canFormZeroArray(nums, queries, right)) return -1;
         while (left <= right) {
             int mid = (left + right) / 2;
             if (canZeroArray(nums, queries, mid, n)) {
@@ -13,7 +14,7 @@ class Solution {
                 left = mid + 1;
             }
         }
-        return ans;
+        return left;
     }
 
     private boolean canZeroArray(int[] nums, int[][] queries, int k, int n) {
