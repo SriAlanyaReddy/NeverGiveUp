@@ -12,7 +12,7 @@ class Solution {
             freq.put(nums[i], freq.getOrDefault(nums[i], 0) + 1);
             take = dfs(nums, k, i + 1);
             freq.put(nums[i], freq.get(nums[i]) - 1);
-            if (freq.get(nums[i]) == 0) freq.remove(nums[i]);
+            //if (freq.get(nums[i]) == 0) freq.remove(nums[i]);
         }
 
         return take + notTake;
