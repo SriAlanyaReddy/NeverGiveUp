@@ -3,19 +3,21 @@ class Solution {
         int n=triangle.size();
         int m=triangle.get(n-1).size();
         int dp[][]=new int[n][m];
-        for(int[] row:dp) Arrays.fill(row,-1);
-        return findpath(dp,0,0,triangle);
-    }
-    public int findpath(int[][] dp,int currentrow,int currentcol,List<List<Integer>>triangle){
-        int n=triangle.size();
-        if(currentrow==n-1){
-            return triangle.get(currentrow).get(currentcol);
+        //for(int[] row:dp) Arrays.fill(row,-1);
+        for(int j=0;j<m;j++){
+            dp[n-1][j]=triangle.get(n-1).get(j);
         }
-        if(dp[currentrow][currentcol]!=-1){
-            return dp[currentrow][currentcol];
+        //start from bootom 2nd row
+        for(int currrow=n-2;currrow>=0;currrow--){
+            for(int curcol=0;curcol<=currrow;curcol++){
+                  int onestep=triangle.get(currrow).get(curcol)+dp[currrow+1][curcol];
+
+         int twostep=triangle.get(currrow).get(curcol)+dp[currrow+1][curcol+1];
+        dp[currrow][curcol]=Math.min(onestep,twostep);
+            }
         }
-        int onestep=triangle.get(currentrow).get(currentcol)+findpath(dp,currentrow+1,currentcol,triangle);
-        int twostep=triangle.get(currentrow).get(currentcol)+findpath(dp,currentrow+1,currentcol+1,triangle);
-        return dp[currentrow][currentcol]=Math.min(onestep,twostep);
+        //return findpath(dp,0,0,triangle);
+        return dp[0][0];
     }
+    
 }
