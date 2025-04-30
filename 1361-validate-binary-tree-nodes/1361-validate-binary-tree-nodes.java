@@ -1,32 +1,41 @@
-class DisjointSet{
-    int parent[];
-    int rank[];
-    DisjointSet(int v){
-        parent=new int[v];
-        for(int i=0;i<v;i++){
-            parent[i]=i;
+class DisjointSet {
+    int[] parent;
+    int[] rank;
+
+    DisjointSet(int v) {
+        parent = new int[v];
+        rank = new int[v];
+        for (int i = 0; i < v; i++) {
+            parent[i] = i;
+            rank[i] = 0;
         }
     }
-    public int findparent(int x){
-    if(parent[x]!=x){
-        parent[x]=findparent(parent[x]);
+
+    public int findparent(int x) {
+        if (parent[x] != x) {
+            parent[x] = findparent(parent[x]); // Path compression
+        }
+        return parent[x];
     }
-    return parent[x];
-}
-public boolean Union(int x,int y){
-    int rootx=findparent(x);
-    int rooty=findparent(y);
-    if(rootx==rooty){
-        return false;
+
+    public boolean Union(int x, int y) {
+        int rootx = findparent(x);
+        int rooty = findparent(y);
+        if (rootx == rooty) {
+            return false; // Cycle detected
+        }
+
+        // Union by rank
+        if (rank[rootx] < rank[rooty]) {
+            parent[rootx] = rooty;
+        } else if (rank[rootx] > rank[rooty]) {
+            parent[rooty] = rootx;
+        } else {
+            parent[rooty] = rootx;
+            rank[rootx]++;
+        }
+        return true;
     }
-    else if(rootx>rooty){
-        parent[rootx]=rooty;
-    }
-    else{
-        parent[rooty]=rootx;
-    }
-    return true;
-}
 }
 
 class Solution {
