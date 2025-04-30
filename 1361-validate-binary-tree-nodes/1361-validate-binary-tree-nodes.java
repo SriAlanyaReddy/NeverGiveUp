@@ -43,7 +43,7 @@ class Solution {
         }
         int rc=0;
         for(int i=0;i<n;i++){
-            if(!hasParent[i])rc++;
+            if(uf.parent[i]==i)rc++;
             if(rc>1)return false;
         }
         return true;
