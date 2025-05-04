@@ -1,23 +1,29 @@
 class Solution {
     public int longestPalindromeSubseq(String s) {
         int n=s.length();
-        int dp[][]=new int[n+1][n+1];
         String rev=new StringBuilder(s).reverse().toString();
-        for(int i=0;i<=n;i++){
-             Arrays.fill(dp[i],-1);
+        int dp[][]=new int[n][n];
+        for(int[] row:dp){
+            Arrays.fill(row,-1);
         }
-        return lcs(n,n,s,rev,dp);
+        return findlongestpalindrome(s,rev,n-1,n-1,dp);
     }
-    public int lcs(int i,int j,String s,String rev,int[][] dp){
-        if(i==0 || j==0){
+    public int findlongestpalindrome(String s,String rev,int ind1,int ind2,int[][] dp){
+        if(ind1<0 || ind2<0){
             return 0;
         }
-        if(dp[i][j]!=-1){
-            return dp[i][j];
+       
+        if(dp[ind1][ind2]!=-1){
+            return dp[ind1][ind2];
         }
-        if(s.charAt(i-1)==rev.charAt(j-1)){
-            return dp[i][j]=1+lcs(i-1,j-1,s,rev,dp);
+        if(s.charAt(ind1)==rev.charAt(ind2)){
+            dp[ind1][ind2]=1+findlongestpalindrome(s,rev,ind1-1,ind2-1,dp);
         }
-        return dp[i][j]=Math.max(lcs(i-1,j,s,rev,dp),lcs(i,j-1,s,rev,dp));
+        else{
+             dp[ind1][ind2]=Math.max(findlongestpalindrome(s,rev,ind1,ind2-1,dp),findlongestpalindrome(s,rev,ind1-1,ind2,dp));
+
+        }
+        return dp[ind1][ind2];
     }
+   
 }
