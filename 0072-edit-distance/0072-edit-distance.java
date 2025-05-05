@@ -1,26 +1,26 @@
 class Solution {
     public int minDistance(String word1, String word2) {
-        int n=word1.length(),m= word2.length();
-        int dp[][]=new int[n][m];
-        for(int row[]:dp){
-            Arrays.fill(row,-1);
+        int n = word1.length(), m = word2.length();
+        int[][] dp = new int[n][m];
+        for (int[] row : dp) {
+            Arrays.fill(row, -1);
         }
-        
-        return findMin(word1,word2,0,0,dp);
-    }
-    public int findMin(String word1,String word2,int idx1,int idx2,int[][] dp){
-        if(idx1==word1.length()) return word2.length()-idx2;
-         if(idx2==word2.length()) return word1.length()-idx1;
-         if(dp[idx1][idx2]!=-1) return dp[idx1][idx2];
-         if(word1.charAt(idx1)==word2.charAt(idx2)){
-            return dp[idx1][idx2]=findMin(word1,word2,idx1+1,idx2+1,dp);
-         }
-         else{
-            int insert=findMin(word1,word2,idx1+1,idx2,dp);
-            int delete=findMin(word1,word2,idx1,idx2+1,dp);
-            int replace=findMin(word1,word2,idx1+1,idx2+1,dp);
-            return dp[idx1][idx2]= 1+Math.min(Math.min(insert,delete),replace);
-         }
 
+        return findMin(word1, word2, n - 1, m - 1, dp);
+    }
+
+    public int findMin(String word1, String word2, int i, int j, int[][] dp) {
+        if (i < 0) return j + 1;  // If word1 is empty, insert all of word2[0...j]
+        if (j < 0) return i + 1;  // If word2 is empty, delete all of word1[0...i]
+        if (dp[i][j] != -1) return dp[i][j];
+
+        if (word1.charAt(i) == word2.charAt(j)) {
+            return dp[i][j] = findMin(word1, word2, i - 1, j - 1, dp);
+        } else {
+            int insert = findMin(word1, word2, i, j - 1, dp);
+            int delete = findMin(word1, word2, i - 1, j, dp);
+            int replace = findMin(word1, word2, i - 1, j - 1, dp);
+            return dp[i][j] = 1 + Math.min(Math.min(insert, delete), replace);
+        }
     }
 }
