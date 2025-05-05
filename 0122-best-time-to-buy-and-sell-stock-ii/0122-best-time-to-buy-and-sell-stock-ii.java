@@ -13,6 +13,7 @@ class Solution {
         if(ind==n){
             return 0;
         }
+        if(dp[ind][buy]!=-1) return dp[ind][buy];
         int profit;
         if(buy==1){
             int take=-prices[ind]+findmaxprofit(prices,ind+1,0,dp);
