@@ -1,11 +1,34 @@
 class Solution {
     public boolean isMatch(String s, String p) {
         int n=s.length(),m=p.length();
-        int dp[][]=new int[n][m];
-        for(int[] row:dp){
-            Arrays.fill(row,-1);
+        int dp[][]=new int[n+1][m+1];
+        dp[0][0]=1;
+        for(int i=0;i<=n;i++){
+            dp[i][0]=0;
         }
-        return isPossible(dp,n-1,m-1,s,p);
+            for (int j = 1; j <= m; j++) {
+            if (p.charAt(j - 1) == '*') {
+                dp[0][j] = dp[0][j - 1];
+            }
+        }
+        for(int i=1;i<=n;i++){
+            for(int j=1;j<=m;j++){
+                  boolean match;
+        if(s.charAt(i-1)==p.charAt(j-1) || p.charAt(j-1)=='?'){
+           match= dp[i-1][j-1]==1;
+        }
+        else if(p.charAt(j-1)=='*'){
+            match=dp[i-1][j]==1||dp[i][j-1]==1;
+
+        }
+        else{
+            match=false;
+
+        }
+        dp[i][j]=match?1:0;
+            }
+        }
+       return dp[n][m]==1;
         
     }
     public boolean isPossible(int[][] dp,int i,int j,String s,String p){
