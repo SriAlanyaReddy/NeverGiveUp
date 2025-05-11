@@ -29,7 +29,7 @@ class Solution {
         if(s.charAt(i)==p.charAt(j) || p.charAt(j)=='?'){
            match= isPossible(dp,i-1,j-1,s,p);
         }
-        if(p.charAt(j)=='*'){
+        else if(p.charAt(j)=='*'){
             match=isPossible(dp,i-1,j,s,p)||isPossible(dp,i,j-1,s,p);
 
         }
