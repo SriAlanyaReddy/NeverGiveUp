@@ -1,4 +1,4 @@
-class DisjointSet{
+/*class DisjointSet{
     int parent[],rank[];
     DisjointSet(int n){
         parent=new int[n+1];
@@ -53,5 +53,36 @@ class Solution {
         }
         return minpath;
         
+    }
+}*/
+class Solution {
+    public int minScore(int n, int[][] roads) {
+        boolean visited[]=new boolean[n+1];
+        List<List<int[]>>adj=new ArrayList<>();
+        for (int i = 0; i <= n; i++) {
+            adj.add(new ArrayList<>());
+        }
+        for(int[] road:roads){
+            adj.get(road[0]).add(new int[]{road[1],road[2]});
+            adj.get(road[1]).add(new int[]{road[0],road[2]});
+        }
+        int[] minpath=new int[1];
+        dfs(1,adj,visited,minpath);
+        return minpath[0];
+        
+    }
+    public void dfs(int source,List<List<int[]>>adj,boolean[] visited,int[] minpath){
+        visited[source]=true;
+        for(int[] neighbor:adj.get(source)){
+            int next = neighbor[0];
+            int dist = neighbor[1];
+
+            // Update min score
+            minpath[0] = Math.min(minpath[0], dist);
+            if(visited[next]==false){
+                dfs(next,adj,visited,minpath);
+            }
+
+        }
     }
 }
