@@ -5,7 +5,7 @@ class Solution {
         Arrays.sort(a);
         while(r<n){
             sum+=a[r];
-            while((long)(a[r]*(r-l+1))>sum+k){
+            while((long)(a[r])*(r-l+1)>sum+k){
                 sum=sum-a[l];
                 l++;
 
