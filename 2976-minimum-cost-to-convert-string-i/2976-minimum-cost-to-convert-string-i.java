@@ -14,7 +14,7 @@ class Solution {
     for(int k=0;k<26;k++){
         for(int i=0;i<26;i++){
             for(int j=0;j<26;j++){
-              
+              if(adj[i][k]<max && adj[k][j]<max)
             adj[i][j]=Math.min(adj[i][j],adj[i][k]+adj[k][j]);
             }
         }
