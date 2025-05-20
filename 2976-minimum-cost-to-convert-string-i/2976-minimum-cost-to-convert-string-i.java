@@ -19,7 +19,7 @@ class Solution {
             }
         }
     }
-    int totalcost=0;
+    long totalcost=0;
     for(int i=0;i<source.length();i++){
         if(source.charAt(i)==target.charAt(i)){
             continue;
