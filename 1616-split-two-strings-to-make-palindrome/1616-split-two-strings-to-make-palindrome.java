@@ -57,6 +57,7 @@ If there are letters left in between, we need to check if they make a palindrome
 
 "xy" + (not palindrome) + "yx" = not palindrome*/
 return cut(a,b)|| cut(b,a);
+    }
  // method to match letters from both ends
     private boolean cut(String a, String b) {
         int i = 0, j = a.length() - 1;
