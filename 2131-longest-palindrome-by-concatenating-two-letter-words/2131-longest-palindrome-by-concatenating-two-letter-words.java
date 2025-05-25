@@ -18,7 +18,7 @@ class Solution {
         }
         boolean hascenter=false;
         for(String s:map.keySet()){
-            if(s.charAt(0)==s.charAt(1) && map.get(word) > 0){
+            if(s.charAt(0)==s.charAt(1) && map.get(s) > 0){
                 hascenter=true;
                 break;
             }
