@@ -17,10 +17,10 @@ class Trie{
     }
     public boolean isValidPrefix(String word){
         TrieNode node=root;
-        for(int i=0;i<word.length()-1;i++){
+        for(int i=0;i<word.length();i++){
             char ch=word.charAt(i);
             int in=ch-'a';
-            if(node.children[in]==null || !node.children[in].isEndOfWord){
+            if(node.children[in]==null || node.children[in].isEndOfWord==true){
                 return false;
             }
             node=node.children[in];
