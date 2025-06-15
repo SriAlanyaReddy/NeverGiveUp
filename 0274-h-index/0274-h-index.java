@@ -1,18 +1,19 @@
 class Solution {
     public int hIndex(int[] a) {
-        int n=a.length;
-        
-        for(int hindex=n;hindex>=0;hindex--){
-            int c=0;
+        int high=a.length,low=0,ans;
+        while(low<high)
+            int mid=(low+high+1)/2;
             for(int i=0;i<n;i++){
-                if(a[i]>=hindex){
+                if(a[i]>=mid){
                     c++;
                 }
             }
-            if(c>=hindex){
-                return hindex;
+            if(c>=mid){
+               ans=mid;
+               low=mid;
             }
+            else high=mid-1;
         }
-        return -1;
+        return ans;
     }
 }
