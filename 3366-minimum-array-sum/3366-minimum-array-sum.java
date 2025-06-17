@@ -1,48 +1,72 @@
 class Solution {
-    public int minArraySum(int[] a, int k, int op1, int op2) {
-        int n=a.length;
-        int dp[][][]=new int[n][op1+1][op2+1];
-        for(int i=0;i<n;i++){
-            for(int j=0;j<=op1;j++)
-            Arrays.fill(dp[i][j],-1);
-        }
-        return find(a,k,op1,op2,dp,n-1);
-        
-    }
-    public int find(int[] a,int k,int op1,int op2,int[][][] dp,int idx){
-        if(idx<0){
-            return 0;
 
+    public int minArraySum(int[] nums, int k, int op1, int op2) {
+        int n = nums.length;
+        
+        // 3D DP array to memoize results
+        int[][][] dp = new int[n][op1 + 1][op2 + 1];
+        
+        // Initialize all DP states to -1 (uncomputed)
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j <= op1; j++) {
+                Arrays.fill(dp[i][j], -1);
+            }
         }
-        if(dp[idx][op1][op2]!=-1){
+
+        // Start solving from the last index
+        return solve(nums, k, op1, op2, n - 1, dp);
+    }
+
+    // Recursive function to compute minimum sum from 0 to idx
+    private int solve(int[] nums, int k, int op1, int op2, int idx, int[][][] dp) {
+        if (idx < 0) {
+            return 0; // Base case: no elements left to process
+        }
+
+        // Return memoized result if already computed
+        if (dp[idx][op1][op2] != -1) {
             return dp[idx][op1][op2];
         }
-        int ans=Integer.MAX_VALUE;
-        if(op1!=0){
-            int rounded=((int)Math.ceil(a[idx]/2.00));
-            int firstop1=rounded+find(a,k,op1-1,op2,dp,idx-1);
-            ans=Math.min(ans,firstop1);
+
+        int minSum = Integer.MAX_VALUE;
+        int current = nums[idx];
+
+        // Case 1: Apply only Operation 1 (halving)
+        if (op1 > 0) {
+            int halved = (int) Math.ceil(current / 2.0);
+            int sumWithOp1 = halved + solve(nums, k, op1 - 1, op2, idx - 1, dp);
+            minSum = Math.min(minSum, sumWithOp1);
         }
-        if(op2!=0 && a[idx]>=k){
-            int firstop2=a[idx]-k+find(a,k,op1,op2-1,dp,idx-1);
-            ans=Math.min(ans,firstop2);
+
+        // Case 2: Apply only Operation 2 (subtract k), only if current <= k
+        if (op2 > 0 && current <= k) {
+            int subtracted = current - k;
+            int sumWithOp2 = subtracted + solve(nums, k, op1, op2 - 1, idx - 1, dp);
+            minSum = Math.min(minSum, sumWithOp2);
         }
-        if(op1!=0 && op2!=0){
-            int afterop1=(int)Math.ceil(a[idx]/2.00);
-            if(afterop1>=k){
-                int sumop1op2=afterop1-k+find(a,k,op1-1,op2-1,dp,idx-1);
-                ans=Math.min(ans,sumop1op2);
-            }
-            if(a[idx]>=k){
-                int sumop2op1=((int)Math.ceil((a[idx]-k)/2.00))+find(a,k,op1-1,op2-1,dp,idx-1);
-                ans=Math.min(ans,sumop2op1);
+
+        // Case 3: Apply Operation 1 then Operation 2
+        if (op1 > 0 && op2 > 0) {
+            int afterOp1 = (int) Math.ceil(current / 2.0);
+            if (afterOp1 >= k) {
+                int result = (afterOp1 - k) + solve(nums, k, op1 - 1, op2 - 1, idx - 1, dp);
+                minSum = Math.min(minSum, result);
             }
 
+            // Case 4: Apply Operation 2 then Operation 1
+            if (current >= k) {
+                int afterOp2Op1 = (int) Math.ceil((current - k) / 2.0);
+                int result = afterOp2Op1 + solve(nums, k, op1 - 1, op2 - 1, idx - 1, dp);
+                minSum = Math.min(minSum, result);
+            }
         }
-        int no_oper=a[idx]+find(a,k,op1,op2,dp,idx-1);
-        ans=Math.min(no_oper,ans);
-        dp[idx][op1][op2]=ans;
-        return ans;
 
+        // Case 5: Apply no operation
+        int noOperation = current + solve(nums, k, op1, op2, idx - 1, dp);
+        minSum = Math.min(minSum, noOperation);
+
+        // Memoize the result and return
+        dp[idx][op1][op2] = minSum;
+        return minSum;
     }
 }
