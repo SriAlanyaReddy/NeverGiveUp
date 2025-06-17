@@ -23,7 +23,7 @@ class Solution {
             int firstop1=rounded+find(a,k,op1-1,op2,dp,idx-1);
             ans=Math.min(ans,firstop1);
         }
-        if(op2!=0 && a[idx]<=k){
+        if(op2!=0 && a[idx]>=k){
             int firstop2=a[idx]-k+find(a,k,op1,op2-1,dp,idx-1);
             ans=Math.min(ans,firstop2);
         }
