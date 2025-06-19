@@ -23,7 +23,7 @@ class Solution {
         int right=solve(i,j-1,k,dp,coins);
         int take=coins[i][j]+Math.max(down,right);
         int nottake=Integer.MIN_VALUE;
-        if(coins[i][j]<0 && k<0){
+        if(coins[i][j]<0 && k>0){
             int skipdown=solve(i-1,j,k-1,dp,coins);
             int skipright=solve(i,j-1,k-1,dp,coins);
             nottake=Math.max(skipdown,skipright);
