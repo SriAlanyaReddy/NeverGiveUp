@@ -23,7 +23,7 @@ class Solution {
         return ans;
         
     }
-    private int count(int dirt,int drt2,int k){
+    private int count(int drt1,int drt2,int k){
         return Math.abs(drt1-drt2)+k*2;
     }
 }
