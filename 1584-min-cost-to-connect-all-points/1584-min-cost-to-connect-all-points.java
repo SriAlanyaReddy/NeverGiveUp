@@ -46,7 +46,7 @@ class Edge implements Comparable<Edge>{
 class Solution {
     public int minCostConnectPoints(int[][] points) {
         int n=points.length;
-        PriorityQueue<Integer>edges=new PriorityQueue<>();
+        PriorityQueue<Edge>edges=new PriorityQueue<>();
         for(int i=0;i<n;i++){
             for(int j=i+1;j<n;j++){
                 int cost=Math.abs(points[i][0]-points[j][0])+Math.abs(points[i][1]-points[j][1]);
