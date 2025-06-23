@@ -1,23 +1,35 @@
 class Solution {
     public int minimumTotal(List<List<Integer>> triangle) {
-        int n=triangle.size();
-        int m=triangle.get(n-1).size();
-        int dp[][]=new int[n][m];
-        //for(int[] row:dp) Arrays.fill(row,-1);
-        for(int j=0;j<m;j++){
-            dp[n-1][j]=triangle.get(n-1).get(j);
+        int n = triangle.size();
+        // We use dp[i][j] to store the minimum path sum from position (i, j) to the bottom
+        int[][] dp = new int[n][n];
+        
+        // Initialize with -1 meaning not computed
+        for (int[] row : dp) {
+            Arrays.fill(row, -1);
         }
-        //start from bootom 2nd row
-        for(int currrow=n-2;currrow>=0;currrow--){
-            for(int curcol=0;curcol<=currrow;curcol++){
-                  int onestep=triangle.get(currrow).get(curcol)+dp[currrow+1][curcol];
 
-         int twostep=triangle.get(currrow).get(curcol)+dp[currrow+1][curcol+1];
-        dp[currrow][curcol]=Math.min(onestep,twostep);
-            }
-        }
-        //return findpath(dp,0,0,triangle);
-        return dp[0][0];
+        return findPath(0, 0, triangle, dp);  // Start from the top (0,0)
     }
-    
+
+    public int findPath(int i, int j, List<List<Integer>> triangle, int[][] dp) {
+        int n = triangle.size();
+
+        // Base case: if we're on the last row, return the value itself
+        if (i == n - 1) {
+            return triangle.get(i).get(j);
+        }
+
+        // If already computed, return from dp table
+        if (dp[i][j] != -1) {
+            return dp[i][j];
+        }
+
+        // Move to the row below: either same column (j) or next column (j+1)
+        int down = triangle.get(i).get(j) + findPath(i + 1, j, triangle, dp);
+        int diagonal = triangle.get(i).get(j) + findPath(i + 1, j + 1, triangle, dp);
+
+        // Store the minimum of both in dp table
+        return dp[i][j] = Math.min(down, diagonal);
+    }
 }
