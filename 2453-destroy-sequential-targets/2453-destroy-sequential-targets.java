@@ -1,7 +1,7 @@
 class Solution {
     public int destroyTargets(int[] a, int space) {
         int n=a.length;
-        Arrays.sort(a);
+       
         int maxn=Integer.MIN_VALUE;
         HashMap<Integer,Integer>mp=new HashMap<>();
         for(int i=0;i<n;i++){
