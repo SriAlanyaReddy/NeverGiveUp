@@ -1,20 +1,21 @@
 class Solution {
     public int secondHighest(String s) {
-        int n=s.length(),secondlargest=-1,largest=-1;
-        for(int i=0;i<n;i++){
-            char ch=s.charAt(i);
-             if (Character.isDigit(ch)){
-                int val=ch-'0';
-                if(val>largest){
-                    largest=val;
-                }
-                else if(val<largest && val>secondlargest){
-                    secondlargest=val;
-                }
-            }
+        boolean[] seen = new boolean[10]; // track which digits appear
 
+        for (char ch : s.toCharArray()) {
+            if (Character.isDigit(ch)) {
+                seen[ch - '0'] = true;
+            }
         }
-        return secondlargest;
-        
+
+        int count = 0;
+        for (int i = 9; i >= 0; i--) {
+            if (seen[i]) {
+                count++;
+                if (count == 2) return i; // second largest
+            }
+        }
+
+        return -1; // if no second largest
     }
 }
