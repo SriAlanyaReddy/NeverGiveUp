@@ -1,9 +1,23 @@
 import java.util.*;
 
 class Solution {
-    public int removeDuplicates(int[] nums) {
+    public int removeDuplicates(int[] a) {
         // collect unique elements
-        HashSet<Integer> set = new HashSet<>();
+       // k = number of unique elements
+       int n=a.length;
+       int i=0;
+       for(int j=1;j<n;j++){
+        if(a[i]!=a[j]){
+            i++;
+            a[i]=a[j];
+        }
+
+       }
+       return i+1;
+    }
+}
+/*
+ HashSet<Integer> set = new HashSet<>();
         for (int num : nums) {
             set.add(num);
         }
@@ -17,6 +31,4 @@ class Solution {
             nums[i] = list.get(i);
         }
 
-        return list.size(); // k = number of unique elements
-    }
-}
+        return list.size(); */
