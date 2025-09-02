@@ -1,17 +1,14 @@
 class Solution {
     public long zeroFilledSubarray(int[] nums) {
-        long countzero=0;
-        long countsubarray=0;
-        int n=nums.length;
-        for(int i=0;i<n;i++){
-            if(nums[i]==0){
-                countzero++;
-                countsubarray+=countzero;
-            }
-            else{
-                countzero=0;
+        long count = 0, result = 0;
+        for (int num : nums) {
+            if (num == 0) {
+                count++; // extend current zero subarray
+                result += count; // add all subarrays ending here
+            } else {
+                count = 0; // reset if not zero
             }
         }
-        return countsubarray;
+        return result;
     }
 }
