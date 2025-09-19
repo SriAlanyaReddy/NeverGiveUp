@@ -1,32 +1,23 @@
-import java.util.ArrayDeque;
-import java.util.Deque;
-
 class Solution {
     public boolean rotateString(String s, String goal) {
-        if (s.length() != goal.length()) {
+         Deque<Character> charDeque = new ArrayDeque<>();
+          if (s.length() != goal.length()) {
             return false;
         }
-        
-        Deque<Character> charDeque = new ArrayDeque<>();
-        for (char c : s.toCharArray()) {
-            charDeque.addLast(c);
+        for(char ch:s.toCharArray()){
+            charDeque.addLast(ch);
         }
-        
-        for (int i = 0; i < s.length(); i++) {
-            char firstChar = charDeque.removeFirst();
-            charDeque.addLast(firstChar);
-            
-            // Convert the deque back to a string
-            StringBuilder rotatedString = new StringBuilder();
-            for (char c : charDeque) {
-                rotatedString.append(c);
+        for(char ch:s.toCharArray()){
+            char ch1=charDeque.removeLast();
+            charDeque.addFirst(ch1);
+            String rot="";
+            for(char ch2:charDeque){
+                rot=rot+ch2;
             }
-            
-            if (rotatedString.toString().equals(goal)) {
+            if(rot.equals(goal)){
                 return true;
             }
         }
-        
         return false;
     }
 }
