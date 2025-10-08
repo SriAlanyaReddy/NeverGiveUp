@@ -1,32 +1,25 @@
+import java.util.*;
+
 class Solution {
-    public List<Integer> getRow(int numRows) {
-        
-  
+    public List<Integer> getRow(int rowIndex) {
+        List<List<Integer>> ans = new ArrayList<>();
 
-
-        // DP table initialized to -1 for memoization
-        int[][] dp = new int[numRows][numRows];
-        for (int[] row : dp) Arrays.fill(row, -1);
-
-        List<List<Integer>> result = new ArrayList<>();
-        for (int r = 0; r < numRows; r++) {
-            List<Integer> currentRow = new ArrayList<>();
-            for (int c = 0; c <= r; c++) {
-                currentRow.add(getValue(r, c, dp));
+        for (int i = 0; i <= rowIndex; i++) {
+            List<Integer> row = new ArrayList<>();
+            for (int j = 0; j <= i; j++) {
+                // first and last elements are always 1
+                if (j == 0 || j == i) {
+                    row.add(1);
+                } else {
+                    // middle elements are sum of two numbers from previous row
+                    int val = ans.get(i - 1).get(j - 1) + ans.get(i - 1).get(j);
+                    row.add(val);
+                }
             }
-            result.add(currentRow);
+            ans.add(row);
         }
-        return result;
-    }
 
-    // Recursive function with memoization
-    private int getValue(int r, int c, int[][] dp) {
-        if (c == 0 || c == r) return 1;               // Base cases
-        if (dp[r][c] != -1) return dp[r][c];          // Cached value
-        dp[r][c] = getValue(r - 1, c - 1, dp) + getValue(r - 1, c, dp);
-        return dp[r][c];
+        // return only the desired row
+        return ans.get(rowIndex);
     }
-
-    // For testing
-   
 }
