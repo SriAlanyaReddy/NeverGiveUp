@@ -1,61 +1,37 @@
 class Solution {
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {
-         Set<String> wordSet = new HashSet<>(wordList);
-
-        // If endWord is not in the list, no solution
-        if (!wordSet.contains(endWord)) {
-            return 0;
-        }
-
-        // Queue for BFS: stores current word and level
+        Set<String> set = new HashSet<>(wordList);
+        if(!set.contains(endWord)) return 0;
+        
         Queue<String> queue = new LinkedList<>();
-        queue.offer(beginWord);
-
-        // Visited set to avoid revisiting words
+        queue.add(beginWord);
+        
         Set<String> visited = new HashSet<>();
-        visited.add(beginWord);
-
-        int level = 1;
-
-        while (!queue.isEmpty()) {
+        queue.add(beginWord);
+        
+        int changes = 1;
+        
+        while(!queue.isEmpty()){
             int size = queue.size();
-
-            // Process one level at a time
-            for (int i = 0; i < size; i++) {
-                String currentWord = queue.poll();
-
-                // If endWord found
-                if (currentWord.equals(endWord)) {
-                    return level;
-                }
-
-                char[] wordChars = currentWord.toCharArray();
-
-                // Try changing each character
-                for (int j = 0; j < wordChars.length; j++) {
-                    char originalChar = wordChars[j];
-
-                    for (char c = 'a'; c <= 'z'; c++) {
-                        if (c == originalChar) continue;
-
-                        wordChars[j] = c;
-                        String newWord = new String(wordChars);
-
-                        // If valid transformation
-                        if (wordSet.contains(newWord) && !visited.contains(newWord)) {
-                            visited.add(newWord);
-                            queue.offer(newWord);
+            for(int i = 0; i < size; i++){
+                String word = queue.poll();
+                if(word.equals(endWord)) return changes;
+                
+                for(int j = 0; j < word.length(); j++){
+                    for(int k = 'a'; k <= 'z'; k++){
+                        char arr[] = word.toCharArray();
+                        arr[j] = (char) k;
+                        
+                        String str = new String(arr);
+                        if(set.contains(str) && !visited.contains(str)){
+                            queue.add(str);
+                            visited.add(str);
                         }
                     }
-
-                    // Restore original character
-                    wordChars[j] = originalChar;
                 }
             }
-
-            level++;
+            ++changes;
         }
-
         return 0;
     }
 }
