@@ -1,14 +1,13 @@
 class Solution {
     public String largestOddNumber(String s) {
-        //we will try to check largest odd number from last;
-        int r=s.length()-1;
-        while(r>=0){
-            int n=s.charAt(r)-'0';
-            if(n%2!=0){
-                break;
+        int lastindex=s.length()-1;
+        while(lastindex>=0){
+            if((s.charAt(lastindex)-'0')%2!=0){
+                return s.substring(0,lastindex+1);
+
             }
-            r--;
+            lastindex--;
         }
-        return s.substring(0,r+1);
+        return "";
     }
 }
