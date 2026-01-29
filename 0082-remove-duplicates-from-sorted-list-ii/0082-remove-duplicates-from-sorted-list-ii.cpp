@@ -1,44 +1,32 @@
-/**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     ListNode *next;
- *     ListNode() : val(0), next(nullptr) {}
- *     ListNode(int x) : val(x), next(nullptr) {}
- *     ListNode(int x, ListNode *next) : val(x), next(next) {}
- * };
- */
 class Solution {
 public:
     ListNode* deleteDuplicates(ListNode* head) {
+        // Dummy node before head
+        ListNode* dummy = new ListNode(-1);
+        dummy->next = head;
+
+        ListNode* prev = dummy;
         ListNode* curr = head;
-        ListNode* newHead = nullptr;
-        ListNode* tail=nullptr;  
-        while(curr!=nullptr){
-            if(curr->next==NULL || curr->val!=curr->next->val){
-                if(newHead==nullptr){
-                    newHead=tail=curr;
-                }
-                else{
-                    tail->next=curr;
-                    tail=curr;
-                }
-                curr=curr->next;
-            }
-            else{
+
+        while (curr != NULL) {
+            // If duplicates found
+            if (curr->next != NULL && curr->val == curr->next->val) {
                 int val = curr->val;
 
-while (curr != nullptr && curr->val == val) {
-    ListNode* temp = curr;
-    curr = curr->next;
-    delete temp;
-}
+                // Skip all nodes with this value
+                while (curr != NULL && curr->val == val) {
+                    curr = curr->next;
+                }
 
+                prev->next = curr;
+            } 
+            else {
+                // No duplicate → move prev
+                prev = curr;
+                curr = curr->next;
             }
         }
-             if (tail != nullptr) {
-            tail->next = nullptr; // Set the next of the last distinct node to null
-        }
-        return newHead;
-        }
+
+        return dummy->next;
+    }
 };
