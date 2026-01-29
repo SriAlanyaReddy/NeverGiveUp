@@ -1,26 +1,22 @@
 class Solution {
-    public String longestCommonPrefix(String[] words) {
-        String smallsubstring="";
-        int min=Integer.MAX_VALUE;
-        for(String word:words){
-            if(word.length()<min){
-                min=word.length();
-                smallsubstring=word;
+    public String longestCommonPrefix(String[] strs) {
+        if (strs == null || strs.length == 0) return "";
 
-            }
-
+        int small = Integer.MAX_VALUE;
+        for (String s : strs) {
+            small = Math.min(s.length(), small);
         }
-        int ind=0;
-        while(ind<min){
-            for(String word:words){
-                if(!word.startsWith(smallsubstring.substring(0,ind+1)){
-                  
-                    return smallsubstring.substring(0,ind);
+
+        for (int i = 0; i < small; i++) {
+            char c = strs[0].charAt(i);
+
+            for (int j = 1; j < strs.length; j++) {
+                if (strs[j].charAt(i) != c) {
+                    return strs[0].substring(0, i);
                 }
             }
-            ind++;
         }
-        return smallsubstring;
-        
+
+        return strs[0].substring(0, small);
     }
 }
