@@ -2,7 +2,7 @@ class Solution {
     public void sortColors(int[] a) {
         //dutch falg algorithm
         int mid=0,low=0,high=a.length-1;
-        while(low<=high){
+        while(mid<=high){
             if(a[mid]==0){
                 int temp=a[low];
                 a[low]=a[mid];
