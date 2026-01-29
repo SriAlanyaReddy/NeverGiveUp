@@ -1,25 +1,27 @@
 class Solution {
-    public void sortColors(int[] a) {
-        //dutch falg algorithm
-        int mid=0,low=0,high=a.length-1;
+    public void sortColors(int[]a) {
+        int low=0,high=a.length-1,mid=0;
+
         while(mid<=high){
             if(a[mid]==0){
-                int temp=a[low];
-                a[low]=a[mid];
-                a[mid]=temp;
-                low++;
-                mid++;
+                int temp=a[mid];
+                a[mid]=a[low];
+                a[low]=temp;
+                low+=1;
+                mid+=1;
+
             }
             else if(a[mid]==1){
                 mid++;
             }
-            else {
-                int temp=a[high];
-                a[high]=a[mid];
-                a[mid]=temp;
+            else{
+                int temp=a[mid];
+                a[mid]=a[high];
+                a[high]=temp;
                 high--;
+
             }
         }
-
+        
     }
 }
