@@ -1,56 +1,47 @@
 class DisjointSet {
-    int parent[];
-    int rank[];
+    char[] parent;
 
-    DisjointSet(int n) {
-        parent = new int[n];
-        rank = new int[n];
-        for (int i = 0; i < n; i++) {
-            parent[i] = i;
-            rank[i] = 0;
+    DisjointSet() {
+        parent = new char[26];
+        for (char ch = 'a'; ch <= 'z'; ch++) {
+            parent[ch - 'a'] = ch;
         }
     }
 
-    public int findparent(int x) {
-        if (parent[x] != x) {
-            parent[x] = findparent(parent[x]);
+    public char findparent(char x) {
+        if (parent[x - 'a'] != x) {
+            parent[x - 'a'] = findparent(parent[x - 'a']); // path compression
         }
-        return parent[x];
+        return parent[x - 'a'];
     }
 
-    public boolean union(int x, int y) {
-        int rootx = findparent(x);
-        int rooty = findparent(y);
+    public void union(char x, char y) {
+        char rootX = findparent(x);
+        char rootY = findparent(y);
 
-        if (rootx == rooty) return false;
+        if (rootX == rootY) return;
 
-        // ✅ Lexicographically smaller becomes parent
-        if (rootx < rooty) {
-        parent[rooty] = rootx;
-    } else {
-        parent[rootx] = rooty;
-    }
-        return true;
+        // ⭐ lexicographically smaller becomes parent
+        if (rootX < rootY) {
+            parent[rootY - 'a'] = rootX;
+        } else {
+            parent[rootX - 'a'] = rootY;
+        }
     }
 }
-
 class Solution {
     public String smallestEquivalentString(String s1, String s2, String baseStr) {
-       DisjointSet dsu=new DisjointSet(26);
-        int n=s1.length();
-        for(int i=0;i<n;i++){
-            int  ch1=s1.charAt(i)-'a';
-            int ch2=s2.charAt(i)-'a';
-            dsu.union(ch1,ch2);
-        }
-        StringBuilder sb=new StringBuilder();
-        for(char ch:baseStr.toCharArray()){
-            int parent=dsu.findparent(ch-'a');
-            sb.append((char)(parent+'a'));
-            
+        DisjointSet dsu = new DisjointSet();
 
+        for (int i = 0; i < s1.length(); i++) {
+            dsu.union(s1.charAt(i), s2.charAt(i));
         }
+
+        StringBuilder sb = new StringBuilder();
+        for (char ch : baseStr.toCharArray()) {
+            sb.append(dsu.findparent(ch));
+        }
+
         return sb.toString();
-        
     }
 }
