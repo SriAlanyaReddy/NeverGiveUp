@@ -1,5 +1,4 @@
 class Solution {
-   
     public int hIndex(int[] a) {
         int n = a.length;
         int low = 0, high = n, ans = 0;
@@ -26,4 +25,3 @@ class Solution {
         return ans;
     }
 }
- 
