@@ -14,6 +14,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
 | [0275-h-index-ii](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0275-h-index-ii/) | Medium |
 | [1893-check-if-all-the-integers-in-a-range-are-covered](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/1893-check-if-all-the-integers-in-a-range-are-covered/) | Easy |
 ## Hash Table
@@ -32,4 +33,20 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [2839-check-if-strings-can-be-made-equal-with-operations-i](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/2839-check-if-strings-can-be-made-equal-with-operations-i/) | Easy |
+## Divide and Conquer
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
+## Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
+## Binary Search Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
+## Binary Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
 <!---LeetCode Topics End-->
