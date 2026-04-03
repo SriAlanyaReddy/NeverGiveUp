@@ -28,4 +28,8 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0275-h-index-ii](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0275-h-index-ii/) | Medium |
+## String
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2839-check-if-strings-can-be-made-equal-with-operations-i](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/2839-check-if-strings-can-be-made-equal-with-operations-i/) | Easy |
 <!---LeetCode Topics End-->
