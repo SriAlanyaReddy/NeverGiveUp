@@ -45,17 +45,20 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0103-binary-tree-zigzag-level-order-traversal/) | Medium |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0109-convert-sorted-list-to-binary-search-tree/) | Medium |
+| [0538-convert-bst-to-greater-tree](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0538-convert-bst-to-greater-tree/) | Medium |
 ## Binary Search Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0109-convert-sorted-list-to-binary-search-tree/) | Medium |
+| [0538-convert-bst-to-greater-tree](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0538-convert-bst-to-greater-tree/) | Medium |
 ## Binary Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0103-binary-tree-zigzag-level-order-traversal/) | Medium |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0109-convert-sorted-list-to-binary-search-tree/) | Medium |
+| [0538-convert-bst-to-greater-tree](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0538-convert-bst-to-greater-tree/) | Medium |
 ## Linked List
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -72,4 +75,8 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [3417-zigzag-grid-traversal-with-skip](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/3417-zigzag-grid-traversal-with-skip/) | Easy |
+## Depth-First Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0538-convert-bst-to-greater-tree](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0538-convert-bst-to-greater-tree/) | Medium |
 <!---LeetCode Topics End-->
