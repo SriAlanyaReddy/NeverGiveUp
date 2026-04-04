@@ -17,6 +17,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
 | [0275-h-index-ii](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0275-h-index-ii/) | Medium |
 | [1893-check-if-all-the-integers-in-a-range-are-covered](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/1893-check-if-all-the-integers-in-a-range-are-covered/) | Easy |
+| [3417-zigzag-grid-traversal-with-skip](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/3417-zigzag-grid-traversal-with-skip/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -63,4 +64,12 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0103-binary-tree-zigzag-level-order-traversal/) | Medium |
+## Matrix
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3417-zigzag-grid-traversal-with-skip](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/3417-zigzag-grid-traversal-with-skip/) | Easy |
+## Simulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3417-zigzag-grid-traversal-with-skip](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/3417-zigzag-grid-traversal-with-skip/) | Easy |
 <!---LeetCode Topics End-->
