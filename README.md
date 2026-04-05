@@ -53,6 +53,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0589-n-ary-tree-preorder-traversal](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0589-n-ary-tree-preorder-traversal/) | Easy |
 | [0590-n-ary-tree-postorder-traversal](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0590-n-ary-tree-postorder-traversal/) | Easy |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0783-minimum-distance-between-bst-nodes/) | Easy |
+| [1379-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/1379-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/) | Easy |
 | [2236-root-equals-sum-of-children](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/2236-root-equals-sum-of-children/) | Easy |
 ## Binary Search Tree
 | Problem Name | Difficulty |
@@ -70,6 +71,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0513-find-bottom-left-tree-value](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0513-find-bottom-left-tree-value/) | Medium |
 | [0538-convert-bst-to-greater-tree](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0538-convert-bst-to-greater-tree/) | Medium |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0783-minimum-distance-between-bst-nodes/) | Easy |
+| [1379-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/1379-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/) | Easy |
 | [2236-root-equals-sum-of-children](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/2236-root-equals-sum-of-children/) | Easy |
 ## Linked List
 | Problem Name | Difficulty |
@@ -83,6 +85,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0513-find-bottom-left-tree-value](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0513-find-bottom-left-tree-value/) | Medium |
 | [0559-maximum-depth-of-n-ary-tree](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0559-maximum-depth-of-n-ary-tree/) | Easy |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0783-minimum-distance-between-bst-nodes/) | Easy |
+| [1379-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/1379-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/) | Easy |
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -101,6 +104,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0589-n-ary-tree-preorder-traversal](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0589-n-ary-tree-preorder-traversal/) | Easy |
 | [0590-n-ary-tree-postorder-traversal](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0590-n-ary-tree-postorder-traversal/) | Easy |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0783-minimum-distance-between-bst-nodes/) | Easy |
+| [1379-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/1379-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/) | Easy |
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
