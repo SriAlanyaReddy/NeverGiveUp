@@ -1,7 +1,8 @@
 class Solution {
     public boolean judgeCircle(String moves) {
-        int c=0;
+        
         int a[]=new int[2];
+        int sum=0;
         
         for(char ch:moves.toCharArray()){
             if(ch=='U'){
@@ -16,14 +17,16 @@ class Solution {
             else if(ch=='R'){
                 a[1]--;
             }
+           
 
         }
-       for(int i:a){
+      /* for(int i:a){
         if(i!=0)
             return false;
         
        }
        return true;
-        
+       */
+       return a[0] == 0 && a[1] == 0; 
     }
 }
