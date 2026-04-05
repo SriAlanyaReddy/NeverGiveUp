@@ -48,6 +48,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0109-convert-sorted-list-to-binary-search-tree/) | Medium |
 | [0513-find-bottom-left-tree-value](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0513-find-bottom-left-tree-value/) | Medium |
 | [0538-convert-bst-to-greater-tree](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0538-convert-bst-to-greater-tree/) | Medium |
+| [0589-n-ary-tree-preorder-traversal](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0589-n-ary-tree-preorder-traversal/) | Easy |
 | [2236-root-equals-sum-of-children](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/2236-root-equals-sum-of-children/) | Easy |
 ## Binary Search Tree
 | Problem Name | Difficulty |
@@ -87,4 +88,9 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | ------- | ------- |
 | [0513-find-bottom-left-tree-value](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0513-find-bottom-left-tree-value/) | Medium |
 | [0538-convert-bst-to-greater-tree](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0538-convert-bst-to-greater-tree/) | Medium |
+| [0589-n-ary-tree-preorder-traversal](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0589-n-ary-tree-preorder-traversal/) | Easy |
+## Stack
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0589-n-ary-tree-preorder-traversal](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0589-n-ary-tree-preorder-traversal/) | Easy |
 <!---LeetCode Topics End-->
