@@ -77,6 +77,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0109-convert-sorted-list-to-binary-search-tree/) | Medium |
+| [2130-maximum-twin-sum-of-a-linked-list](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/2130-maximum-twin-sum-of-a-linked-list/) | Medium |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -110,4 +111,9 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | ------- | ------- |
 | [0589-n-ary-tree-preorder-traversal](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0589-n-ary-tree-preorder-traversal/) | Easy |
 | [0590-n-ary-tree-postorder-traversal](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0590-n-ary-tree-postorder-traversal/) | Easy |
+| [2130-maximum-twin-sum-of-a-linked-list](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/2130-maximum-twin-sum-of-a-linked-list/) | Medium |
+## Two Pointers
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2130-maximum-twin-sum-of-a-linked-list](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/2130-maximum-twin-sum-of-a-linked-list/) | Medium |
 <!---LeetCode Topics End-->
