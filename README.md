@@ -15,6 +15,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
+| [0198-house-robber](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0198-house-robber/) | Medium |
 | [0275-h-index-ii](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0275-h-index-ii/) | Medium |
 | [0463-island-perimeter](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0463-island-perimeter/) | Easy |
 | [1034-coloring-a-border](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/1034-coloring-a-border/) | Medium |
@@ -168,6 +169,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0198-house-robber](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0198-house-robber/) | Medium |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
 ## Shortest Path
 | Problem Name | Difficulty |
