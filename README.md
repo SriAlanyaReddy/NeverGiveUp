@@ -64,6 +64,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0103-binary-tree-zigzag-level-order-traversal/) | Medium |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0109-convert-sorted-list-to-binary-search-tree/) | Medium |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
 | [0429-n-ary-tree-level-order-traversal](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0429-n-ary-tree-level-order-traversal/) | Medium |
 | [0513-find-bottom-left-tree-value](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0513-find-bottom-left-tree-value/) | Medium |
 | [0538-convert-bst-to-greater-tree](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0538-convert-bst-to-greater-tree/) | Medium |
@@ -87,6 +88,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0103-binary-tree-zigzag-level-order-traversal/) | Medium |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0109-convert-sorted-list-to-binary-search-tree/) | Medium |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
 | [0513-find-bottom-left-tree-value](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0513-find-bottom-left-tree-value/) | Medium |
 | [0538-convert-bst-to-greater-tree](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0538-convert-bst-to-greater-tree/) | Medium |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0783-minimum-distance-between-bst-nodes/) | Easy |
@@ -132,6 +134,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
 | [0463-island-perimeter](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0463-island-perimeter/) | Easy |
 | [0513-find-bottom-left-tree-value](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0513-find-bottom-left-tree-value/) | Medium |
 | [0538-convert-bst-to-greater-tree](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0538-convert-bst-to-greater-tree/) | Medium |
