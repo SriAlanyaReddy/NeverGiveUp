@@ -19,6 +19,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [1248-count-number-of-nice-subarrays](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
 | [1893-check-if-all-the-integers-in-a-range-are-covered](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/1893-check-if-all-the-integers-in-a-range-are-covered/) | Easy |
 | [3417-zigzag-grid-traversal-with-skip](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/3417-zigzag-grid-traversal-with-skip/) | Easy |
+| [3898-find-the-degree-of-each-vertex](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/3898-find-the-degree-of-each-vertex/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -97,6 +98,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [3417-zigzag-grid-traversal-with-skip](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/3417-zigzag-grid-traversal-with-skip/) | Easy |
+| [3898-find-the-degree-of-each-vertex](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/3898-find-the-degree-of-each-vertex/) | Easy |
 ## Simulation
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -132,4 +134,8 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1248-count-number-of-nice-subarrays](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
+## Graph Theory
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3898-find-the-degree-of-each-vertex](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/3898-find-the-degree-of-each-vertex/) | Easy |
 <!---LeetCode Topics End-->
