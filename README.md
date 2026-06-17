@@ -15,6 +15,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0063-unique-paths-ii](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0063-unique-paths-ii/) | Medium |
+| [0064-minimum-path-sum](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0064-minimum-path-sum/) | Medium |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
 | [0198-house-robber](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0198-house-robber/) | Medium |
 | [0275-h-index-ii](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0275-h-index-ii/) | Medium |
@@ -113,6 +114,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0063-unique-paths-ii](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0063-unique-paths-ii/) | Medium |
+| [0064-minimum-path-sum](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0064-minimum-path-sum/) | Medium |
 | [0463-island-perimeter](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0463-island-perimeter/) | Easy |
 | [1034-coloring-a-border](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/1034-coloring-a-border/) | Medium |
 | [1091-shortest-path-in-binary-matrix](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
@@ -175,6 +177,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | ------- | ------- |
 | [0062-unique-paths](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0062-unique-paths/) | Medium |
 | [0063-unique-paths-ii](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0063-unique-paths-ii/) | Medium |
+| [0064-minimum-path-sum](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0064-minimum-path-sum/) | Medium |
 | [0198-house-robber](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0198-house-robber/) | Medium |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
 | [3840-house-robber-v](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/3840-house-robber-v/) | Medium |
