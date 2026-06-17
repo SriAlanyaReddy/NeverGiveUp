@@ -24,6 +24,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [1390-four-divisors](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/1390-four-divisors/) | Medium |
 | [1893-check-if-all-the-integers-in-a-range-are-covered](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/1893-check-if-all-the-integers-in-a-range-are-covered/) | Easy |
 | [3417-zigzag-grid-traversal-with-skip](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/3417-zigzag-grid-traversal-with-skip/) | Easy |
+| [3840-house-robber-v](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/3840-house-robber-v/) | Medium |
 | [3898-find-the-degree-of-each-vertex](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/3898-find-the-degree-of-each-vertex/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
@@ -171,6 +172,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | ------- | ------- |
 | [0198-house-robber](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0198-house-robber/) | Medium |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
+| [3840-house-robber-v](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/3840-house-robber-v/) | Medium |
 ## Shortest Path
 | Problem Name | Difficulty |
 | ------- | ------- |
