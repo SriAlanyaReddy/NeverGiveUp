@@ -16,6 +16,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | ------- | ------- |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
 | [0275-h-index-ii](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0275-h-index-ii/) | Medium |
+| [0463-island-perimeter](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0463-island-perimeter/) | Easy |
 | [1248-count-number-of-nice-subarrays](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
 | [1390-four-divisors](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/1390-four-divisors/) | Medium |
 | [1893-check-if-all-the-integers-in-a-range-are-covered](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/1893-check-if-all-the-integers-in-a-range-are-covered/) | Easy |
@@ -91,6 +92,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | ------- | ------- |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0103-binary-tree-zigzag-level-order-traversal/) | Medium |
 | [0429-n-ary-tree-level-order-traversal](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0429-n-ary-tree-level-order-traversal/) | Medium |
+| [0463-island-perimeter](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0463-island-perimeter/) | Easy |
 | [0513-find-bottom-left-tree-value](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0513-find-bottom-left-tree-value/) | Medium |
 | [0547-number-of-provinces](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0547-number-of-provinces/) | Medium |
 | [0559-maximum-depth-of-n-ary-tree](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0559-maximum-depth-of-n-ary-tree/) | Easy |
@@ -99,6 +101,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0463-island-perimeter](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0463-island-perimeter/) | Easy |
 | [3417-zigzag-grid-traversal-with-skip](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/3417-zigzag-grid-traversal-with-skip/) | Easy |
 | [3898-find-the-degree-of-each-vertex](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/3898-find-the-degree-of-each-vertex/) | Easy |
 ## Simulation
@@ -109,6 +112,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0463-island-perimeter](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0463-island-perimeter/) | Easy |
 | [0513-find-bottom-left-tree-value](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0513-find-bottom-left-tree-value/) | Medium |
 | [0538-convert-bst-to-greater-tree](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0538-convert-bst-to-greater-tree/) | Medium |
 | [0547-number-of-provinces](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0547-number-of-provinces/) | Medium |
