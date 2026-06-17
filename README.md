@@ -92,6 +92,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0103-binary-tree-zigzag-level-order-traversal/) | Medium |
 | [0429-n-ary-tree-level-order-traversal](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0429-n-ary-tree-level-order-traversal/) | Medium |
 | [0513-find-bottom-left-tree-value](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0513-find-bottom-left-tree-value/) | Medium |
+| [0547-number-of-provinces](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0547-number-of-provinces/) | Medium |
 | [0559-maximum-depth-of-n-ary-tree](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0559-maximum-depth-of-n-ary-tree/) | Easy |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0783-minimum-distance-between-bst-nodes/) | Easy |
 | [1379-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/1379-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/) | Easy |
@@ -110,6 +111,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | ------- | ------- |
 | [0513-find-bottom-left-tree-value](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0513-find-bottom-left-tree-value/) | Medium |
 | [0538-convert-bst-to-greater-tree](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0538-convert-bst-to-greater-tree/) | Medium |
+| [0547-number-of-provinces](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0547-number-of-provinces/) | Medium |
 | [0559-maximum-depth-of-n-ary-tree](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0559-maximum-depth-of-n-ary-tree/) | Easy |
 | [0589-n-ary-tree-preorder-traversal](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0589-n-ary-tree-preorder-traversal/) | Easy |
 | [0590-n-ary-tree-postorder-traversal](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0590-n-ary-tree-postorder-traversal/) | Easy |
@@ -139,5 +141,10 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 ## Graph Theory
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0547-number-of-provinces](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0547-number-of-provinces/) | Medium |
 | [3898-find-the-degree-of-each-vertex](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/3898-find-the-degree-of-each-vertex/) | Easy |
+## Union-Find
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0547-number-of-provinces](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0547-number-of-provinces/) | Medium |
 <!---LeetCode Topics End-->
