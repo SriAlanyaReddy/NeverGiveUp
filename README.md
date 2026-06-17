@@ -154,6 +154,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0062-unique-paths](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0062-unique-paths/) | Medium |
 | [1248-count-number-of-nice-subarrays](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
 | [1390-four-divisors](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/1390-four-divisors/) | Medium |
 | [2816-double-a-number-represented-as-a-linked-list](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/2816-double-a-number-represented-as-a-linked-list/) | Medium |
@@ -170,6 +171,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0062-unique-paths](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0062-unique-paths/) | Medium |
 | [0198-house-robber](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0198-house-robber/) | Medium |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
 | [3840-house-robber-v](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/3840-house-robber-v/) | Medium |
@@ -177,4 +179,8 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
+## Combinatorics
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0062-unique-paths](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0062-unique-paths/) | Medium |
 <!---LeetCode Topics End-->
