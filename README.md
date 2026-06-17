@@ -50,6 +50,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0127-word-ladder](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0127-word-ladder/) | Hard |
 | [0424-longest-repeating-character-replacement](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0424-longest-repeating-character-replacement/) | Medium |
 | [0657-robot-return-to-origin](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0657-robot-return-to-origin/) | Easy |
+| [1092-shortest-common-supersequence](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/1092-shortest-common-supersequence/) | Hard |
 | [2839-check-if-strings-can-be-made-equal-with-operations-i](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/2839-check-if-strings-can-be-made-equal-with-operations-i/) | Easy |
 ## Divide and Conquer
 | Problem Name | Difficulty |
@@ -179,6 +180,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0063-unique-paths-ii](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0063-unique-paths-ii/) | Medium |
 | [0064-minimum-path-sum](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0064-minimum-path-sum/) | Medium |
 | [0198-house-robber](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0198-house-robber/) | Medium |
+| [1092-shortest-common-supersequence](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/1092-shortest-common-supersequence/) | Hard |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
 | [3840-house-robber-v](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/3840-house-robber-v/) | Medium |
 ## Shortest Path
