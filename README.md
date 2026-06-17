@@ -18,6 +18,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0275-h-index-ii](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0275-h-index-ii/) | Medium |
 | [0463-island-perimeter](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0463-island-perimeter/) | Easy |
 | [1034-coloring-a-border](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/1034-coloring-a-border/) | Medium |
+| [1091-shortest-path-in-binary-matrix](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
 | [1248-count-number-of-nice-subarrays](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
 | [1390-four-divisors](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/1390-four-divisors/) | Medium |
 | [1893-check-if-all-the-integers-in-a-range-are-covered](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/1893-check-if-all-the-integers-in-a-range-are-covered/) | Easy |
@@ -102,12 +103,14 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0559-maximum-depth-of-n-ary-tree](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0559-maximum-depth-of-n-ary-tree/) | Easy |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0783-minimum-distance-between-bst-nodes/) | Easy |
 | [1034-coloring-a-border](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/1034-coloring-a-border/) | Medium |
+| [1091-shortest-path-in-binary-matrix](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
 | [1379-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/1379-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/) | Easy |
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0463-island-perimeter](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0463-island-perimeter/) | Easy |
 | [1034-coloring-a-border](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/1034-coloring-a-border/) | Medium |
+| [1091-shortest-path-in-binary-matrix](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
 | [3417-zigzag-grid-traversal-with-skip](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/3417-zigzag-grid-traversal-with-skip/) | Easy |
 | [3898-find-the-degree-of-each-vertex](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/3898-find-the-degree-of-each-vertex/) | Easy |
 ## Simulation
