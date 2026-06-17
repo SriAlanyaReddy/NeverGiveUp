@@ -91,6 +91,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0109-convert-sorted-list-to-binary-search-tree/) | Medium |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/2095-delete-the-middle-node-of-a-linked-list/) | Medium |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/2130-maximum-twin-sum-of-a-linked-list/) | Medium |
+| [2816-double-a-number-represented-as-a-linked-list](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/2816-double-a-number-represented-as-a-linked-list/) | Medium |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -137,6 +138,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0589-n-ary-tree-preorder-traversal](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0589-n-ary-tree-preorder-traversal/) | Easy |
 | [0590-n-ary-tree-postorder-traversal](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0590-n-ary-tree-postorder-traversal/) | Easy |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/2130-maximum-twin-sum-of-a-linked-list/) | Medium |
+| [2816-double-a-number-represented-as-a-linked-list](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/2816-double-a-number-represented-as-a-linked-list/) | Medium |
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -152,6 +154,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | ------- | ------- |
 | [1248-count-number-of-nice-subarrays](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
 | [1390-four-divisors](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/1390-four-divisors/) | Medium |
+| [2816-double-a-number-represented-as-a-linked-list](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/2816-double-a-number-represented-as-a-linked-list/) | Medium |
 ## Graph Theory
 | Problem Name | Difficulty |
 | ------- | ------- |
