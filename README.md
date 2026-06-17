@@ -16,16 +16,19 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | ------- | ------- |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
 | [0275-h-index-ii](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0275-h-index-ii/) | Medium |
+| [1248-count-number-of-nice-subarrays](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
 | [1893-check-if-all-the-integers-in-a-range-are-covered](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/1893-check-if-all-the-integers-in-a-range-are-covered/) | Easy |
 | [3417-zigzag-grid-traversal-with-skip](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/3417-zigzag-grid-traversal-with-skip/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0424-longest-repeating-character-replacement](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0424-longest-repeating-character-replacement/) | Medium |
+| [1248-count-number-of-nice-subarrays](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
 | [1893-check-if-all-the-integers-in-a-range-are-covered](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/1893-check-if-all-the-integers-in-a-range-are-covered/) | Easy |
 ## Prefix Sum
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1248-count-number-of-nice-subarrays](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
 | [1893-check-if-all-the-integers-in-a-range-are-covered](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/1893-check-if-all-the-integers-in-a-range-are-covered/) | Easy |
 ## Binary Search
 | Problem Name | Difficulty |
@@ -124,4 +127,9 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0424-longest-repeating-character-replacement](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0424-longest-repeating-character-replacement/) | Medium |
+| [1248-count-number-of-nice-subarrays](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
+## Math
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1248-count-number-of-nice-subarrays](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
 <!---LeetCode Topics End-->
