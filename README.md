@@ -23,6 +23,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [1034-coloring-a-border](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/1034-coloring-a-border/) | Medium |
 | [1091-shortest-path-in-binary-matrix](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
 | [1248-count-number-of-nice-subarrays](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
+| [1389-create-target-array-in-the-given-order](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/1389-create-target-array-in-the-given-order/) | Easy |
 | [1390-four-divisors](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/1390-four-divisors/) | Medium |
 | [1893-check-if-all-the-integers-in-a-range-are-covered](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/1893-check-if-all-the-integers-in-a-range-are-covered/) | Easy |
 | [3417-zigzag-grid-traversal-with-skip](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/3417-zigzag-grid-traversal-with-skip/) | Easy |
@@ -131,6 +132,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0657-robot-return-to-origin](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0657-robot-return-to-origin/) | Easy |
+| [1389-create-target-array-in-the-given-order](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/1389-create-target-array-in-the-given-order/) | Easy |
 | [3417-zigzag-grid-traversal-with-skip](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/3417-zigzag-grid-traversal-with-skip/) | Easy |
 | [3612-process-string-with-special-operations-i](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/3612-process-string-with-special-operations-i/) | Medium |
 ## Depth-First Search
