@@ -20,6 +20,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0198-house-robber](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0198-house-robber/) | Medium |
 | [0275-h-index-ii](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0275-h-index-ii/) | Medium |
 | [0463-island-perimeter](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0463-island-perimeter/) | Easy |
+| [0654-maximum-binary-tree](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0654-maximum-binary-tree/) | Medium |
 | [1034-coloring-a-border](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/1034-coloring-a-border/) | Medium |
 | [1091-shortest-path-in-binary-matrix](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
 | [1248-count-number-of-nice-subarrays](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/1248-count-number-of-nice-subarrays/) | Medium |
@@ -59,6 +60,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | ------- | ------- |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0109-convert-sorted-list-to-binary-search-tree/) | Medium |
+| [0654-maximum-binary-tree](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0654-maximum-binary-tree/) | Medium |
 ## Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -73,6 +75,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0559-maximum-depth-of-n-ary-tree](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0559-maximum-depth-of-n-ary-tree/) | Easy |
 | [0589-n-ary-tree-preorder-traversal](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0589-n-ary-tree-preorder-traversal/) | Easy |
 | [0590-n-ary-tree-postorder-traversal](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0590-n-ary-tree-postorder-traversal/) | Easy |
+| [0654-maximum-binary-tree](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0654-maximum-binary-tree/) | Medium |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0783-minimum-distance-between-bst-nodes/) | Easy |
 | [1379-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/1379-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/) | Easy |
 | [2236-root-equals-sum-of-children](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/2236-root-equals-sum-of-children/) | Easy |
@@ -93,6 +96,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
 | [0513-find-bottom-left-tree-value](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0513-find-bottom-left-tree-value/) | Medium |
 | [0538-convert-bst-to-greater-tree](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0538-convert-bst-to-greater-tree/) | Medium |
+| [0654-maximum-binary-tree](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0654-maximum-binary-tree/) | Medium |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0783-minimum-distance-between-bst-nodes/) | Easy |
 | [1379-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/1379-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/) | Easy |
 | [2236-root-equals-sum-of-children](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/2236-root-equals-sum-of-children/) | Easy |
@@ -154,6 +158,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | ------- | ------- |
 | [0589-n-ary-tree-preorder-traversal](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0589-n-ary-tree-preorder-traversal/) | Easy |
 | [0590-n-ary-tree-postorder-traversal](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0590-n-ary-tree-postorder-traversal/) | Easy |
+| [0654-maximum-binary-tree](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0654-maximum-binary-tree/) | Medium |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/2130-maximum-twin-sum-of-a-linked-list/) | Medium |
 | [2816-double-a-number-represented-as-a-linked-list](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/2816-double-a-number-represented-as-a-linked-list/) | Medium |
 ## Two Pointers
@@ -201,4 +206,8 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0062-unique-paths](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0062-unique-paths/) | Medium |
+## Monotonic Stack
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0654-maximum-binary-tree](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0654-maximum-binary-tree/) | Medium |
 <!---LeetCode Topics End-->
