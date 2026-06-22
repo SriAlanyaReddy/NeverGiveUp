@@ -52,6 +52,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | [0657-robot-return-to-origin](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0657-robot-return-to-origin/) | Easy |
 | [1092-shortest-common-supersequence](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/1092-shortest-common-supersequence/) | Hard |
 | [2839-check-if-strings-can-be-made-equal-with-operations-i](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/2839-check-if-strings-can-be-made-equal-with-operations-i/) | Easy |
+| [3612-process-string-with-special-operations-i](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/3612-process-string-with-special-operations-i/) | Medium |
 ## Divide and Conquer
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -131,6 +132,7 @@ Created with :heart: by [LeetPush](https://github.com/husamahmud/LeetPush)
 | ------- | ------- |
 | [0657-robot-return-to-origin](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/0657-robot-return-to-origin/) | Easy |
 | [3417-zigzag-grid-traversal-with-skip](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/3417-zigzag-grid-traversal-with-skip/) | Easy |
+| [3612-process-string-with-special-operations-i](https://github.com/SriAlanyaReddy/NeverGiveUp/tree/main/3612-process-string-with-special-operations-i/) | Medium |
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
